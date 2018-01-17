@@ -225,16 +225,20 @@ min-height: 790px;
 	  display:block;
     text-transform: capitalize;
     /* margin: 13px 10px 0px 25px; */
-    background: rgb(0, 97, 158);
+    /*background: rgb(0, 97, 158);*/
     padding: 40px 30px 40px;
     position: absolute;
     top: 0;
     left: 1.8em;
 	  z-index:99;
+    background-image: url("../images/logo.png");
+    background-color: rgb(0, 97, 158);
+    background-size: 100% 100%;
 }
 i.fa.fa-paint-brush {
     position: absolute;
-    color: #000000;
+    color: white;
+    /*color:red;*/
     transform: rotate(-180deg);
 	-webkit-transform: rotate(-180deg);
 	-moz-transform: rotate(-180deg);
@@ -769,7 +773,7 @@ a.callbacks_nav.callbacks3_nav.next{
 .about-agileits .passionq p{
   margin-top:40px;
   font-size:35px;
-  font-family: cursive;
+  font-family: "Blackadder ITC",geneva, Sans-serif;
   font-style:italic;
 }
 .about-agileits i{
@@ -1324,6 +1328,7 @@ figure img {
     /* border: 1px solid #f8b239; */
     margin: 0 15px;
 }
+.laptop img{margin:auto;}
 .team-left{
 	padding:0;
 }
@@ -3482,7 +3487,7 @@ a.w3_agile_vimeo:hover{
 	.header-top {
 		padding-left: 12.3em;
 	}
-	.navbar-default .navbar-brand {
+  .navbar-default .navbar-brand {
 		padding: 22px 17px 22px 23px;
 		font-size: 25px;
 	}
